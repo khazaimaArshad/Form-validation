@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <tittle> Form Validation</tittle>
+    <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+  <form>
+ <label for="first_name" >First Name</label><br>
+ <input type="text" id="first_name" placeholder=""onclick="mybtn()"required><br><br>
+   <label for="last_name">Last Name</label><br>
+<input type="text" id="last_name" name="last_name"  placeholder=""required onclick="myfun()"/><br><br>
+<label for="phone">Phone No</label><br>
+<input type="phone" id="phone" name="phone" placeholder="" required onclick="myvision()"/><br><br>
+    <label for="email">Email Address</label><br>
+<input type="email" id="email" name="email" onclick="mytask()" required placeholder=""/><br><br>
+<label for="password">Password</label><br>
+<input type="password"id="password"name="password"required placeholder=""pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,})" onclick="mywork()"/><br><br>    
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<button type="submit"> Sign Up</button>
+      </form>
+    </body>
+   <script src="script.js"></script>
+  </html>
